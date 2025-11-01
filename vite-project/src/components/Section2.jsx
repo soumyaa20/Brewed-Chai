@@ -10,7 +10,7 @@ const teas = [
 
 const Section2 = () => {
   return (
-    <div className="section2">
+    <div className="section2" id='section2'>
       <div className="section2-left">
         {teas.map((tea, index) => (
           <motion.img
@@ -52,13 +52,7 @@ const Section2 = () => {
           Let the aroma fill your space, let the flavors dance on your palate, and let each cup remind you that the simple joys in life are often the most profound. Welcome to a world where every tea tells a story, and every story is steeped in love.
         </motion.p>
 
-        <motion.button
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1 }}
-        >
-          Explore More
-        </motion.button>
+        
       </motion.div>
     </div>
   );

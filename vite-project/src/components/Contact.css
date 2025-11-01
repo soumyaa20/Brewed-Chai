@@ -1,0 +1,38 @@
+.contact {
+  
+
+background: -webkit-linear-gradient(90deg, hsla(37, 73%, 52%, 1) 0%, hsla(33, 52%, 45%, 1) 69%, hsla(28, 39%, 39%, 1) 84%, hsla(15, 25%, 34%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4C3932", endColorstr="#6D4C41", GradientType=1 ); /* warm dark brown like brewed tea */
+  color: #1a1919f1;
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact li {
+  margin: 8px 0;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.contact li:hover {
+  color: #0d0d0c; /* golden tea accent color */
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .contact li {
+    font-size: 0.9rem;
+  }
+}

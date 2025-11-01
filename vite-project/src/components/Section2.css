@@ -26,7 +26,7 @@
     height: 350px;
     object-fit: cover;
     position: absolute;
-
+   
     border: 10px solid white;
     box-shadow: 0 8px 15px rgba(0,0,0,0.2);
   }
@@ -86,10 +86,11 @@
     cursor: pointer;
     width: 200px;
 margin-top: 20px;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
   }
   
   .section2-right button:hover {
     background-color: #533724;
     transform: scale(1.05);
+    
   }

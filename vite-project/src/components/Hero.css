@@ -139,9 +139,9 @@ margin: 0;
 }
 .tea{
   position: absolute;
-  left: 80px;
+  left: 50px;
 
-  top: 800px;
+  top: 650px;
   width: 400px;
   z-index: 999;
   border: 13px solid white;
@@ -152,10 +152,12 @@ margin: 0;
   line-height: 1.6;
   position: absolute;
   bottom:  -70px;
-  left: 1260px;
+  left: 1100px;
   background: linear-gradient(-90deg, #6d4c41, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 999;
   width: 400px;
 }
+
+

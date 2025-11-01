@@ -33,14 +33,16 @@ const itemVariants = {
 
 const Section1 = () => {
   return (
-    <div className="section1">
+    <div className="section1" id='section1'>
       <motion.h1
+       className="our-popular"
         variants={headingVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.4 }}
+        
       >
-        OUR POPULAR <span className="hindi">चाय</span>
+        <span className="hindi"></span>
       </motion.h1>
 
       <motion.div

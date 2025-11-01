@@ -28,6 +28,7 @@
   .section1 .hindi {
     font-family: 'Noto Serif Devanagari', serif;
     font-weight: 700;
+    
   }
 .tea-gallery {
     display: flex;
@@ -57,4 +58,9 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.9rem;
     color: #6d4c41;
+  }
+
+  .our-popular {
+    top:700px;
+    left :50px
   }
